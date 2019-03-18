@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+
+	<title>Soporte Mi Ahorro Cuenta</title>
+
+	<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=3f4157f0-6f2e-4f73-9f13-87798de1e50b"> </script>
+	<script type="text/javascript">
+		zE('webWidget', 'open')
+	</script>
+	<script type="text/javascript">
+zE('webWidget', 'helpCenter:setSuggestions', { search: 'cuenta' });
+</script>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<style>
+		body{
+			background-color: #f7f7f7;
+		}
+		.flex {
+			display: flex;
+		}
+		.flex-col {
+			flex-direction: column;
+		}
+		.py-8 {
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+		}
+		.justify-center{
+			justify-content: center
+		}
+		.items-center{
+			align-items: center
+		}
+		.self-center{
+			align-self: center;
+		}
+		#main{
+			flex: 1;
+		}
+		.partido {
+			width: 100%;
+		}
+		@media only screen and (min-width: 700px){
+			.partido{
+				width:50%;
+			}
+		}
+		@media only screen and (min-width: 1024px){
+			.partido{	
+				width:66%;
+			}
+		}	
+		@media only screen and (min-width: 1200px){
+			.partido{	
+				width:80%;
+			}
+		}		@media only screen and (min-width: 1440px){
+			.partido{	
+				width:100%;
+			}
+		}
+		.centrado{
+				height: 20vh;
+		}
+			@media only screen and (min-width: 700px) {
+				.centrado {
+					height: 100vh;
+				}
+			}
+	</style>
+</head>
+<body>
+	<div class="partido">
+		<div class="flex flex-col justify-center items-center centrado" id="main">
+			<img src="logo_bdp.svg">
+			<p style="line-height: 1.5; color: #005EB8; font-family: sans-serif;">Chat de Soporte Mi Ahorro Cuenta</p>
+		</div>
+	</div>
+</body>
+</html>
+
